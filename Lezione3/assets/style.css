@@ -1,0 +1,90 @@
+
+body {
+  background-color: saddlebrown;
+}
+.container {
+  background-color:  white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 50rem;
+}
+
+#nuovaTask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: black;
+}
+
+
+#nuovaTask {
+  position: relative;
+  padding: 30px 20px;
+}
+#nuovaTask input {
+  color: #111111;
+  width: 35rem;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  
+}
+
+
+.task {
+  background-color: grey;
+  height: 50px;
+  margin-bottom: px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#daFare {
+  background-color: white;
+  padding: 0px 20px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.task button {
+  background-color: red;
+  font-size: 1em;
+  color: white;
+  height: 38px;
+  width: 38px;
+ 
+  
+}
+
+
+.task span {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.completa {
+  text-decoration: line-through;
+}
+
+.task:last-child {
+  margin-bottom: 30px;
+}
+
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  
+}
